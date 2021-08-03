@@ -1,0 +1,197 @@
+
+/*https://www.w3.org/Style/Examples/007/center.en.html*/
+
+/*Fonts CDN*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+/*for header section*/
+#header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+#navigation li {
+	flex: 3;
+}
+#navigation ul li a {
+	color: white;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 25px;
+    top: 2px;
+    font-size: 18px;
+}
+
+#account,
+.fa-user-circle {
+	text-decoration: none;
+	color: white;
+}
+
+.header-text-title {
+	text-align: center;
+	margin-top: 287px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	color: #FBD784;
+}
+
+#follow ul li a,
+#start ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+}
+#follow ul,
+#start ul {
+	list-style: none;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#follow ul li,
+#start ul li{
+	margin-bottom: 30px;
+}
+#follow-us {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	text-align: left;
+	letter-spacing: 3px;
+}
+#start {
+	text-align: right;
+}
+
+.main-header-title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 88px;
+	line-height: 100px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+.main-header-scroll,
+.main-header-scroll i {
+	color: white;
+}
+
+#services {
+	margin-top: 350px;
+}
+
+#register {
+	background-image: url("img/register.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#transact {
+	background-image: url("img/transact.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#tracking {
+	background-image: url("img/tracking.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#planting {
+	background-image: url("img/planting.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.service-img {
+    border: 1px solid white;
+	height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.service-img p {
+	margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.service-desc {
+	margin-top: 30px;
+	color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.service-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contribute-fund-title {
+	font-size: 30px;
+	color: #FBD784;
+	letter-spacing: 5px;
+	font-weight: lighter;
+}
+#contribute-fund-steps {
+	margin-top: 40px;
+}
+.contribute-fund-step {
+	font-family: 'Gilda Display', serif;
+	font-size: 150px;
+	font-weight: bolder;
+	color: grey;
+}
+.contribute-fund-desc {
+	color: white;
+	font-size: 30px;
+}
+
+.blog-content {
+	margin-top: 350px;
+}
+/*for our header separator*/
+#header-separator {
+	background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+	height: 100px;
+}
+
+#blog,
+#footer {
+	background-color: #0B1D26;
+	height: 500px;"
+}
+
+/*for blog section*/
+/*for footer section*/

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link href="vendor/fontawesome/css/fontawesome.css" rel="stylesheet">
+  	<link href="vendor/fontawesome/css/brands.css" rel="stylesheet">
+  	<link href="vendor/fontawesome/css/solid.css" rel="stylesheet">
+
+	<title>Document</title>
+</head>
+<body>
+	<div class="container" id="main">
+		<nav>
+			<div class="row" id="main-container">
+				<div class="col">
+					<i class="fas fa-file-code" id="logo"></i>
+				</div>
+				<div class="col-6" id="navigation">
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Project</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Join us</a></li>
+						<li><a href="#">Updates</a></li>
+					</ul>
+				</div>
+				<div class="col" style="text-align: right;">
+					<span><i class="fa fa-user-circle"></i></span> 
+					<a href="#" id="account">
+						Accont
+					</a>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<h1 id="heading"><span><i class="fas fa-minus"></i></span> CRYPTO.FOR.A.BETTER.TOMORROW</h1>
+		</div>
+		<div class="container">
+			<div class="row" id="hero">
+				<div class="col-2" id="follow">
+					<ul>
+						<li><a href="#" id="follow-us">Follow us</a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-8" style="margin-top: 32px;">
+					<h1 id="heading1">Reduce Your Carbon Footprint By Using Crypto.</h1>
+					<p id="headingt">scroll down <span> <i class="fas fa-arrow-down"></i></span></p>
+				</div>
+				<div class="col-2" id="start">
+					<ul>
+						<li><a href="#">Start</a></li>
+						<li><a href="#">01</a></li>
+						<li><a href="#">02</a></li>
+						<li><a href="#">03</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row" id="services">
+				<div class="col" id="service">
+					<div class="service-div">
+						<img src="img/register.jpg" alt="Register" class="service-img">
+					</div>
+					
+					<p class="service-desc">Register your existing Bitcoin Wallet Address.</p>
+				</div>
+				<div class="col" id="service">
+					<div class="service-div">
+						<img src="img/transact.jpg" alt="Transact" class="service-img">
+					</div>
+					<p class="service-desc">Make transactions using the registered Bitcoin Wallet.</p>
+				</div>
+				<div class="col" id="service">
+					<div class="service-div">
+						<img src="img/tracking.jpg" alt="Tracking" class="service-img">
+					</div>
+					<p class="service-desc">Blocksaves will track down your transaction using registered Bitcoin Wallet.</p>
+				</div>
+				<div class="col" id="service">
+					<div class="service-div">
+						<img src="img/planting.jpg" alt="Planting" class="service-img">
+					</div>
+					<p class="service-desc">Blocksaves will plant trees based on the corresponding number of transactions you make.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="content-separator"></div>
+		<div class="container-fluid">
+			<div class="row" id="steps">
+				<div class="container">
+					<h1 id="heading"><span><i class="fas fa-minus"></i></span> HOW TO CONTRIBUTE FUNDS?</h1>
+				</div>
+				<div class="col-3">
+					<h1>01</h1>
+					<p>Go to our Store</p>
+				</div>
+				<div class="col-3">
+					<h1>02</h1>
+					<p>Purchase any item</p>
+				</div>
+				<div class="col-6">
+					<h1>02</h1>
+					<p>Purchase any item</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="vendor/jquery.min.js"></script>
+	<script type="text/javascript" src="vendor/popper.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		const hideNav = document.getElementById("navbarNav")
+		const btnNav = document.getElementById("btnNavigation")
+		btnNav.onclick = function () {
+			if(hideNav.style.display !== "none") {
+				hideNav.style.display = "none";
+			} else {
+				hideNav.style.display = "block";
+			}
+		};
+	</script>
+</body>
+</html>
