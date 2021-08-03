@@ -272,15 +272,49 @@
 }
 #blog {
 	background-color: #0B1D26;
-	height: 500px;
+	height: 1200px;
 }
 #blog-post {
 	margin-top: 200px;
 }
+
 #footer {
 	background-color: #0B1D26;
 	height: 500px;
 }
-
+.footer-title {
+	font-size: 40px;
+	color: white;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+}
+.footer-desc {
+	font-size: 20px;
+	color: white;
+}
+.footer-copyright {
+	font-size: 20px;
+	color: grey;
+}
+#footer-list-active a {
+	color: #FBD784 !important;
+	font-size: 25px !important;
+	font-weight: 500 !important;
+	letter-spacing: 1px !important;
+}
+#footer-list ul {
+	list-style: none;
+}
+#footer-list ul li {
+	margin-bottom: 15px;
+}
+#footer-list ul li a {
+	text-decoration: none;
+	margin-bottom: 5px;
+	color: white;
+}
+.footer-copyright {
+	margin-top: 100px;
+}
 /*for blog section*/
 /*for footer section*/
