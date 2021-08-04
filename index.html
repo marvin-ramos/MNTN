@@ -11,15 +11,25 @@
    <link href="vendor/fontawesome/css/brands.css" rel="stylesheet">
    <link href="vendor/fontawesome/css/solid.css" rel="stylesheet">
 
+   <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+   </script>
    <title>MNTN</title>
 </head>
 <body style="background: #0B1D26;">
    <div class="container-fluid" id="header">
-      <div class="container">
+      <div class="container" id="navigation-wrapper">
          <nav>
             <div class="row" id="main-container">
                <div class="col-sm-3 col-3" id="logo-wrapper">
-                  <i class="fas fa-file-code" id="logo"></i>
+                  <img src="img/blocksaves.png" alt="Logo" id="logo-pic">
                </div>
                <div class="col-sm-6 col-6" id="navigation">
                   <ul>
@@ -38,6 +48,28 @@
                </div>
             </div>
          </nav>
+      </div>
+      
+      <!-- Simulate a smartphone / tablet -->
+      <div class="container" id="mobile-navigation-container">
+
+         <!-- Top Navigation Menu -->
+         <div id="topnav-mobile-navigation">
+            <a href="#" class="active"></a>
+            <div id="myLinks">
+               <img src="img/blocksaves.png" alt="Logo" id="logo-pic">
+               <a href="#">About us</a>
+               <a href="#">Project</a>
+               <a href="#">Services</a>
+               <a href="#">Join us</a>
+               <a href="#">Updates</a>
+               <a href="#">Accont</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+         </div>
+
       </div>
       <div class="container" id="header-text">
          <h1 class="header-text-title"><span><i class="fas fa-minus"></i> </span>CRYPTO.FOR.A.BETTER.TOMORROW.</h1>
@@ -79,6 +111,12 @@
                      <a href="#">03</a>
                   </li>
                </ul>
+            </div>
+         </div>
+
+         <div class="row" id="button-input-wrapper">
+            <div class="button-container">
+               <button type="button" class="btn btn-secondary btn-lg" id="join-community">Join Our Community</button>
             </div>
          </div>
       </div>

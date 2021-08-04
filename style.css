@@ -14,7 +14,12 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+#navigation-wrapper {
+	padding-top: 30px;
+}
+#logo-pic {
+	width: 150px;
+}
 #navigation ul {
 	list-style: none;
 	margin: 0;
@@ -36,6 +41,10 @@
   font-size: 18px;
 }
 
+/*for responsive sidebar*/ 
+.mobile-navigation-container {
+	display: none;
+}
 #account,
 .fa-user-circle {
 	text-decoration: none;
@@ -99,9 +108,15 @@
 .main-header-scroll i {
 	color: white;
 }
-
+#join-community {
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 20px;
+  border: 3px solid white;
+}
 #services {
-	margin-top: 350px;
+	margin-top: 200px;
 }
 
 #register {
@@ -180,7 +195,18 @@
 .blog-content {
 	margin-top: 350px;
 }
-
+.button-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#button-input-wrapper {
+	margin-top: 100px;
+}
+#input-wrapper {
+	width: 50%;
+  margin-right: 10px;
+}
 /*for our header separator*/
 #header-separator {
 	background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
@@ -390,7 +416,56 @@
 
 /*for medium devices*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-	
+
+	/*for responsive navigation*/
+	#mobile-navigation-container {
+		display: block;
+		width: 100%;
+		margin: auto;
+		color: white;
+		border-radius: 10px;
+	}
+	#topnav-mobile-navigation {
+	  overflow: hidden;
+	  background-color: #616d74eb;
+	  position: relative;
+	}
+	#topnav-mobile-navigation a {
+	  color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    letter-spacing: 3px;
+    font-weight: lighter;
+	}
+	#topnav-mobile-navigation a.icon {
+	  background: black;
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	#topnav-mobile-navigation a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+	.active {
+	  background-color: #616d74eb;
+	  color: white;
+	  height: 76px;
+	}
+	#myLinks {
+		text-align: center;
+    padding: 20px;
+    margin: 10px;
+	}
+	#topnav-mobile-pic {
+		width: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	}
+
 	/*for header navigation*/
 	#logo-wrapper,
 	#navigation,
@@ -400,6 +475,7 @@
 	.header-text-title {
 		text-align: center;
     letter-spacing: 2px;
+    margin-top: 70px;
 	}
 	#follow,
 	#start {
@@ -430,4 +506,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+	#mobile-navigation-container {
+		display: none;
+	}
 }
